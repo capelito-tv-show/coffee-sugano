@@ -1,0 +1,64 @@
+/* mainContents */
+.App {
+  text-align: center;
+  background-color: #9e9e9e0d;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 909px) {
+  .MainImage {
+    width: 100%;
+    height: 250px;
+  }
+
+  .global {
+    padding: 0;
+    width: auto;
+    height: auto;
+    position:relative;
+    z-index: 1010;
+    min-height: 0;
+    background-position: top;
+    background-size: 100%;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    display: block;
+  }
+
+  .mainContents {
+    /*margin-left: 200px;
+    padding: 50px 100px 50px 100px;*/
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 910px) {
+  .MainImage {
+    height: 400px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    padding-left: 123px;
+  }
+  .mainContents {
+    padding-top: 56px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+}
