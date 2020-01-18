@@ -1,8 +1,7 @@
-import React from "react";
 import { withStyles } from "material-ui/styles";
 import NewsContent from '../components/Card'
 
-const styles = theme => ({
+const styles = ({
   mainTitle: {
     paddingLeft: "18px",
     color: "white",
@@ -36,9 +35,6 @@ const styles = theme => ({
     width: "100%",
     display: "inline-block",
     fontSize: "18px",
-    // [theme.breakpoints.down("md")]: {
-    //   margin: "0"
-    // }
   },
   subTitle: {
     marginBottom: "16px",
@@ -53,7 +49,6 @@ const styles = theme => ({
     paddingBottom: "5px",
     margin: "0",
     fontSize: "11px"
-    // borderBottom: "1px solid #D0D0D0"
   }
 });
 

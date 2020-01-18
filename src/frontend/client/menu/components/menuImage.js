@@ -9,7 +9,7 @@ export default class MenuImage extends Component {
   render() {
     return (
       <div>
-        <img src={image} style={imgStyles} />
+        <img src={image} style={imgStyles} alt="image" />
       </div>
     );
   }

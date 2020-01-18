@@ -1,5 +1,3 @@
-import React, { Component } from "react";
-
 export const styles = theme => ({
   global: {
     backgroundColor: "rgba(49,21,1,1)",

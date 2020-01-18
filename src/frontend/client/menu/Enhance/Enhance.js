@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { compose, withState, withHandlers,lifecycle } from "recompose";
+import { lifecycle } from "recompose";
 import { withStyles } from "material-ui/styles";
 import { firebaseDb } from "../../../shared/Firebase";
 import MenuItem from '../components/MenuItem';

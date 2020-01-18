@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import { withStyles } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
-import Card, { CardActions, CardContent } from 'material-ui/Card'
+import Card, { CardContent } from 'material-ui/Card'
 import Typography from 'material-ui/Typography'
-import Divider from 'material-ui/Divider'
 
 import step1 from '../../shared/images/step1.jpg'
 import step2 from '../../shared/images/step2.jpg'
@@ -49,7 +48,7 @@ class Manual extends Component {
           </Typography>
           <Grid container>
             <Grid item xs={12} sm={6} md={3} className={classes.manual}>
-              <img src={step1} className={classes.img} />
+              <img src={step1} className={classes.img} alt="step1"/>
               <div className={classes.td}>
                 <Typography variant="subheading" component="h3">
                   1. お好みの味を確認
@@ -60,7 +59,7 @@ class Manual extends Component {
               </div>
             </Grid>
             <Grid item xs={12} sm={6} md={3} className={classes.manual}>
-              <img src={step2} className={classes.img} />
+              <img src={step2} className={classes.img} alt="step2"/>
               <div className={classes.td}>
                 <Typography variant="subheading" component="h3">
                   ２．日替わりの試飲珈琲を提供
@@ -72,7 +71,7 @@ class Manual extends Component {
               </div>
             </Grid>
             <Grid item xs={12} sm={6} md={3} className={classes.manual}>
-              <img src={step3} className={classes.img} />
+              <img src={step3} className={classes.img} alt="step3" />
               <div className={classes.td}>
                 <Typography variant="subheading" component="h3">
                   ３．お客様が使用しているコーヒードリップの器具を確認
@@ -88,7 +87,7 @@ class Manual extends Component {
               </div>
             </Grid>
             <Grid item xs={12} sm={6} md={3} className={classes.manual}>
-              <img src={step4} className={classes.img} />
+              <img src={step4} className={classes.img} alt="step4" />
               <div className={classes.td}>
                 <Typography variant="subheading" component="h3">
                   ４．珈琲豆の袋詰め（200ｇ以上ご購入の場合）

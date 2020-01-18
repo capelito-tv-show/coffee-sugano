@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { firebaseDb } from "../../../shared/Firebase";
 import { withStyles } from "material-ui/styles";
 import {styles} from '../styles/withStyle';
 import Grid from "material-ui/Grid";
@@ -9,18 +8,6 @@ class Premium extends Component {
   constructor() {
     super();
     this.state = { menus: [] };
-  }
-
-  componentWillMount() {
-    const blendRef = firebaseDb.ref("menus/Straight");
-    let _this = this;
-
-    const menusRef = blendRef.on("value", function(snapshot) {
-      const menus = snapshot.val();
-      _this.setState({
-        menus: menus
-      });
-    });
   }
 
   render() {

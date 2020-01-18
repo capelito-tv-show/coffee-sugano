@@ -2,13 +2,11 @@ import React, { Component } from 'react'
 
 import { withStyles } from 'material-ui/styles'
 import Grid from 'material-ui/Grid'
-import Paper from 'material-ui/Paper'
 import Typography from 'material-ui/Typography'
 
 import MenuCard from '../components/menuCard'
 import Tea from '../components/tea'
 import Premium from '../Enhance/Straight'
-import MenuImage from '../components/menuImage'
 import Other from '../components/Other'
 import Food from '../components/Food'
 import img from '../../shared/images/sandwich-set.jpg'
