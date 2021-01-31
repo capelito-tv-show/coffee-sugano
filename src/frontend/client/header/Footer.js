@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <Grid container>
         <Grid item xs={12} className={classes.footer}>
           <div className={classes.footertext}>
-            <p>営業時間 ：9：00～19：00 (月曜定休日)</p>
+            <p>営業時間 ：9：30～18：30 (月曜定休日)</p>
             <p>@珈琲工房すがの AllRightReserved.,</p>
           </div>
         </Grid>

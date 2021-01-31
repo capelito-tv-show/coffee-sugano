@@ -33,7 +33,7 @@ class Main extends React.Component {
             <div className={classes.InnerText}>
               <img src={IntroTitle} className={classes.IntroTitle} />
               <p className={classes.p}>
-                おかげさまで14周年を迎えました。<br />
+                おかげさまで15周年を迎えました。<br />
                 一粒一粒を選別した生豆を大切に焙煎した「一杯のおいしい珈琲」を
                 お客様に楽しんでいただき、<br />
                 お客様が満足できる「くつろぎのパートナー」になりたいと思います。<br />
