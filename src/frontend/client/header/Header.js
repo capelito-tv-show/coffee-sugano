@@ -35,6 +35,11 @@ class Header extends Component {
                 </Link>
               </li>
               <li className={classes.li}>
+                <a href="https://sugano-uchicafe.stores.jp/" className={classes.link} target="_blank">
+                  <span>通販</span>
+                </a>
+              </li>
+              <li className={classes.li}>
                 <Link to="/access/" className={classes.link}>
                   <span>アクセス</span>
                 </Link>
